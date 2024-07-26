@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="min-h-screen">
+        <div class="bg-gray-100 dark-mode:bg-gray-900">
+            <div class="w-full text-gray-700 bg-white dark-mode:text-gray-200">
+                <div class="w-full text-gray-700 bg-white dark-mode:text-gray-200 ">
+                    <div x-data="{open: true }" class="flex flex-col max-w-screen-xl px-4 mx-auto md:item-center md:justify-between md:justify-between md:flex-row md:flex-row md:px-6 px-8">
+                        <div href="flex flex-row item-center justify-between p-4">
+                            <a href="#" class="text-lg font-semibold text-gray-900 uppercase rounded-lg dark-mode:text-white"> Logo </a>
+                            <button class="rounded-lg md:hidden focus:outline-none" @click=" open = !open">
+
+                            </button>
+
+                        </div>
+
+                        <div class="flex-col hidden flex-row pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
+                            <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 hover:text-gray-400 focus:outline-none hover:underline  focus:shadow-outline" href="#">Home</a>
+
+                            <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 hover:text-gray-200 focus:outline-none focus:shadow-outline" href="#">About</a>
+
+                            <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 hover:text-gray-200 focus:outline-none focus:shadow-outline" href="#">Contact</a>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
